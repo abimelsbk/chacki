@@ -2,7 +2,7 @@
 
 Chacki is a small neon robot that lives on your desk. It has moods, needs, a personality and ears. You can control it from your phone, and it runs as an app under [M5 Launcher](https://github.com/bmorcelli/Launcher), next to your other firmwares.
 
-**Firmware docs → [firmware/chacki-firmware/README.md](firmware/chacki-firmware/README.md)**
+**Website → [abimelsbk.github.io/chacki](https://abimelsbk.github.io/chacki/)** · **Firmware docs → [firmware/chacki-firmware/README.md](firmware/chacki-firmware/README.md)**
 
 ## Highlights
 
