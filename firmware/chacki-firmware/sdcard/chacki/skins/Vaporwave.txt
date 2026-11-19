@@ -1,0 +1,9 @@
+# Example custom skin. Copy to /chacki/skins/ on the SD card.
+# It shows up in the web UI skin list after a reboot.
+name=Vaporwave
+eye=#ff71ce
+accent=#01cdfe
+bg=#1a0033
+# round | square | pill
+shape=pill
+scanlines=1

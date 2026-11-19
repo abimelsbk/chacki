@@ -1,0 +1,6 @@
+name=Ghost
+eye=#f0f0ff
+accent=#7a7aff
+bg=#000000
+shape=round
+scanlines=0

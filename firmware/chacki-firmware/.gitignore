@@ -1,0 +1,5 @@
+.pio/
+.vscode/
+dist/
+include/secrets.h
+sdcard/chacki/config.txt

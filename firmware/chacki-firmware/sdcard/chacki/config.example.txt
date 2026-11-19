@@ -1,0 +1,52 @@
+# Chacki configuration
+# 1. Rename this file to config.txt
+# 2. Copy the chacki folder to the root of your SD card -> /chacki/config.txt
+# Read at boot and saved to the device; re-imported only when you edit it.
+
+# ---- Wi-Fi: up to 5 networks you already use ----------------------------
+# Chacki joins whichever of these is in range (strongest wins).
+# Must be 2.4 GHz networks (ESP32 can't see 5 GHz).
+# Leave blank the ones you don't need. Open network = leave _pass empty.
+
+# Home
+wifi_ssid=YourHomeWiFi
+wifi_pass=YourHomePassword
+
+# Office
+wifi2_ssid=
+wifi2_pass=
+
+# Phone hotspot (works anywhere - best option for cafes)
+wifi3_ssid=
+wifi3_pass=
+
+# Other
+wifi4_ssid=
+wifi4_pass=
+
+wifi5_ssid=
+wifi5_pass=
+
+# ---- AI backend (Phase 3). Leave empty for now - Chacki works offline. ----
+# Example: backend_url=http://192.168.1.50:8000
+backend_url=
+device_token=
+
+# POSIX timezone string. India = IST-5:30, UK = GMT0BST,M3.5.0/1,M10.5.0
+tz=IST-5:30
+
+# Speaker volume 0-255
+volume=150
+
+# ---- Optional starting values (all of these can be changed in the web UI) ----
+# personality: cheerful | sarcastic | sleepy | hacker
+#personality=cheerful
+# skin: Neon Cyan | Synthwave | Matrix | Amber Term | Ice | Blood Moon | Toxic | (your /chacki/skins/*.txt)
+#skin=Neon Cyan
+#name=CHACKI
+# daily alarm HH:MM (24h)
+#alarm=07:30
+#water_min=60
+#stand_min=45
+# web UI password (min 6 chars). If unset, a random one is generated and shown on the info card.
+#web_pass=
